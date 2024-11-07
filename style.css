@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 59px;
+    
+}
+.nav1{
+    margin: 500px;
+}
+.brand img{
+    width: 75px;
+    filter: invert(1);
+}
+nav ul li{
+    padding: 0 12px;
+    color: white;
+}
+
+.white-line{
+    height: 0.5px;
+    background-color: white;
+    margin: 10px 0;
+}
+.container h1{
+    color: white;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.container{
+    min-height: 75vh;
+    background-color: green;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url(roman-melnychuk-j5I80kLda3c-unsplash.jpg);
+    background-size: contain;
+
+}
+
+#myProgressBar{
+    width: 50vw;
+    cursor: pointer;
+    
+}
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+    margin: 20px;
+}
+.songItem img{
+    width: 75px;
+}
+.songItem{
+
+    height: 50px;
+    margin: 35px 0;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.songListPlay{
+    margin: 10px;
+}
+.timestamp{
+    margin: 0 25px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songBanner{
+    margin-left: 100px;
+}
+.songInfo{
+    position: absolute;
+    left: 25vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
